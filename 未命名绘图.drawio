@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="EpP3J1ejU7LNlK3oNUQr">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;spacing=3;spacingTop=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="280" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;spacing=3;spacingTop=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="143" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;spacing=3;spacingTop=1;" edge="1" parent="1" source="SQikUOS_lyPxBvpeaP2r-4" target="SQikUOS_lyPxBvpeaP2r-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-4" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.server;spacing=3;spacingTop=1;" vertex="1" parent="1">
+          <mxGeometry x="364" y="414" width="90" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;spacing=3;spacingTop=1;" vertex="1" parent="1">
+          <mxGeometry x="678" y="158" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-6" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;spacing=3;spacingTop=1;" vertex="1" parent="1">
+          <mxGeometry x="678" y="429" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;spacing=3;spacingTop=1;" edge="1" parent="1" source="SQikUOS_lyPxBvpeaP2r-3" target="SQikUOS_lyPxBvpeaP2r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0.07;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;spacing=3;spacingTop=1;" edge="1" parent="1" source="SQikUOS_lyPxBvpeaP2r-3" target="SQikUOS_lyPxBvpeaP2r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.07;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;spacing=3;spacingTop=1;" edge="1" parent="1" source="SQikUOS_lyPxBvpeaP2r-6" target="SQikUOS_lyPxBvpeaP2r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-14" value="攻击机（Kali）&lt;div style=&quot;font-size: 14px;&quot;&gt;IP：192.168.0.110&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;spacing=3;spacingTop=1;" vertex="1" parent="1">
+          <mxGeometry x="82" y="364" width="146" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-16" value="web01&lt;div style=&quot;font-size: 14px;&quot;&gt;IP1：192.168.0.100&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;IP2：192.168.10.10&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;spacing=3;spacingTop=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="75" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-17" value="winPC-shiro&lt;div style=&quot;font-size: 14px;&quot;&gt;IP1：192.168.10.20&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;IP2：192.168.20.10&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;spacing=3;spacingTop=1;" vertex="1" parent="1">
+          <mxGeometry x="336" y="532" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-18" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;Win-ms-17-010&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;IP1：192.168.20.20&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;IP2：192.168.30.20&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;spacing=3;spacingTop=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="517" width="146" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SQikUOS_lyPxBvpeaP2r-19" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;域控&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;IP：192.168.30.10&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;spacing=3;spacingTop=1;" vertex="1" parent="1">
+          <mxGeometry x="655" y="75" width="146" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
